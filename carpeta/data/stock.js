@@ -5,7 +5,7 @@ const juegos = [
         tipo: "juego de playstation 1",
         desc: "Juego de disparos sobre autos",
         precio: 2500,
-        imagen: "./carpeta/img/twistedMetal1.jpg",
+        imagen: "/carpeta/img/twistedMetal1.jpg",
         cantidad: 1
     },
     {
