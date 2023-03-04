@@ -1,0 +1,221 @@
+.header {
+    background-color: tomato;
+    height: auto;
+    width: auto;
+
+}
+
+.header h1 {
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.header p {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-weight: 800;
+    margin-top: 35px;
+    color: blue;
+    margin-left: 500px;
+}
+
+#el-carrito{
+    
+    color: rgb(225, 76, 65);
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#el-carrito:hover{
+    
+    color: rgb(225, 76, 65);
+    font-size: 50px;
+    background-color: black;
+    
+    
+    
+}
+
+
+#el-carrito img {
+    
+    width: 50px;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#juegos-contain {
+    width: auto;
+    flex-wrap: wrap;
+
+
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.flex {
+
+
+
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.flex img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 5px;
+}
+
+.flex img:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.flex a:hover {
+    background-color: red;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+.modal__title{
+    font-size: 2.5rem;
+}
+.modal__parrafo{
+    margin-bottom: 10px;
+}
+.modal__img {
+    width: 90%;
+    max-width: 300px;
+}
+
+.modal__close {
+    text-decoration: none;
+    columns: #fff;
+    background-color: #f26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+
+
+}
+
+.modal__close:hover{
+    color: #f26250;
+    background-color: #fff;
+}
+
+.modal__container {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+
+}
+.productoEnCarrito {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    margin: 2px;
+  }
+
+  .elim {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    padding: 15px 15px;
+    margin-bottom: 2px;
+
+  }
+
+  .elim:hover{
+    background-color: black;
+    opacity: .5;
+  }
+
+  .precioProducto {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+  }
+
+  .red {
+    color: red;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid;
+  }
+
+  .cant {
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px dashed;
+    font-size: larger;
+  }
+
+  .name {
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid;
+  }
