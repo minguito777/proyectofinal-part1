@@ -5,7 +5,7 @@ const juegos = [
         tipo: "juego de playstation 1",
         desc: "Juego de disparos sobre autos",
         precio: 2500,
-        imagen: "/carpeta/img/twistedMetal1.jpg",
+        imagen: "carpeta/img/twistedMetal1.jpg",
         cantidad: 1
     },
     {
@@ -14,7 +14,7 @@ const juegos = [
         tipo: "juego de playstation 1",
         desc: "Juego de accion en 3ra persona",
         precio: 1500,
-        imagen: "/carpeta/img/syphonFilter2.jpg",
+        imagen: "carpeta/img/syphonFilter2.jpg",
         cantidad: 1
     },
     {
@@ -23,7 +23,7 @@ const juegos = [
         tipo: "juego de playstation 1",
         desc: "Juego de accion y aventuras",
         precio: 3500,
-        imagen: "/carpeta/img/misionImposible.jpg",
+        imagen: "carpeta/img/misionImposible.jpg",
         cantidad: 1
     },
     {
