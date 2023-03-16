@@ -15,7 +15,40 @@ const pintarProductos = (data) => {
                             </div>
         
                             `
-        contenedor.appendChild(div);
+        contenedor.appendChild(div).addEventListener('click', () => {
+
+            Toastify({
+            
+                text: "AGREGADO AL CARRITO",
+                duration: 5000,
+                avatar: `${juego.imagen}`,
+                close: true,
+                gravity: "top", 
+                position: "right", 
+                stopOnFocus: true, 
+                style: {
+                    background: "linear-gradient(to right, #14098dda, #e305f3);",
+                    
+                },
+                offset: {
+                    x: 500, 
+                    y: 10 
+                },
+
+
+
+
+            }).showToast()
+        });
+
+
+
     });
+
+
+
+
+
 };
 
+//toast

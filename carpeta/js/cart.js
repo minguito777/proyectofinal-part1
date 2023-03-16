@@ -54,7 +54,7 @@ const pintarCarrito = (carrito) => {
                         <p class="name">${juego.nombre} </p>
                         <p class="red">Precio:$$ ${juego.precio}</p>
                         <p class="cant" id=cantidad${juego.id}>Cantidad: ${juego.cantidad}</p>
-                        <button class="btn elim boton-eliminar" value="${juego.id}">X</button>
+                        <button class="btn elim boton-eliminar " value="${juego.id}">X</button>
         
         
         `
@@ -92,7 +92,10 @@ const storage = () => {
 };
 
 if (localStorage.getItem('carrito')) {
+    
     carrito = storage()
     pintarCarrito(carrito)
     actualizeTotalsCarrito(carrito)
 }
+
+

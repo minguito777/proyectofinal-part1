@@ -107,4 +107,31 @@ const juegos = [
         imagen: "../carpeta/img/silentHill.png",
         cantidad: 1
     },
+    {
+        id: 13,
+        nombre: "Silent Hill 2",
+        tipo: "juego de playstation 2",
+        desc: "Juego de survival horror",
+        precio: 3700,
+        imagen: "../carpeta/img/silenthill2.jpg",
+        cantidad: 1
+    },
+    {
+        id: 14,
+        nombre: "Need For Speed MW",
+        tipo: "juego de playstation 2",
+        desc: "Juego de Carreras",
+        precio: 3700,
+        imagen: "../carpeta/img/needForSpeedMostWanted.jpg",
+        cantidad: 1
+    },
+    {
+        id: 15,
+        nombre: "Call Of Duty Black Ops",
+        tipo: "juego de playstation 3",
+        desc: "Shooter primera persona",
+        precio: 3700,
+        imagen: "../carpeta/img/callofduty.jpg",
+        cantidad: 1
+    },
 ]
