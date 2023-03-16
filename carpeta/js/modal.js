@@ -19,7 +19,13 @@ deleteM.addEventListener('click', (e) =>{
     e.stopPropagation()
     if (e.target.classList.contains('boton-eliminar')) {
         deleteGameCarrito(e.target.value)
-        console.log(deleteM)
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Su juego ha sido borrado del carrito',
+            showConfirmButton: false,
+            timer: 1500
+          })
     }
     
 });

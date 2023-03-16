@@ -23,6 +23,13 @@ const validarJuegosEnCarrito = (juegoId) => {
         carrito.push(juego)
         pintarJuegoEnCarrito(juego)
         actualizeTotalsCarrito(carrito)
+        Swal.fire({
+            position: 'top-start',
+            icon: 'success',
+            title: 'Su juego ha sigo agregado al carrito',
+            showConfirmButton: false,
+            timer: 1500
+          })
     }
 };
 
