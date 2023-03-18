@@ -113,7 +113,7 @@ const juegos = [
         tipo: "juego de playstation 2",
         desc: "Juego de survival horror",
         precio: 3700,
-        imagen: "../carpeta/img/silenthill2.jpg",
+        imagen: "./carpeta/img/silenthill2.jpg",
         cantidad: 1
     },
     {
@@ -122,7 +122,7 @@ const juegos = [
         tipo: "juego de playstation 2",
         desc: "Juego de Carreras",
         precio: 3700,
-        imagen: "../carpeta/img/needForSpeedMostWanted.jpg",
+        imagen: "./carpeta/img/needForSpeedMostWanted.jpg",
         cantidad: 1
     },
     {
@@ -131,7 +131,7 @@ const juegos = [
         tipo: "juego de playstation 3",
         desc: "Shooter primera persona",
         precio: 3700,
-        imagen: "../carpeta/img/callofduty.jpg",
+        imagen: "./carpeta/img/callofduty.jpg",
         cantidad: 1
     },
 ]
